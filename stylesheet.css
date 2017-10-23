@@ -1,0 +1,110 @@
+/* Wildcard die ervoor zorgt dat de body geen randje heeft*/
+*{
+  margin:0; padding:0;
+}
+/**********************************************************/
+/**********************************************************/
+body{
+
+    }
+/**********************************************************/
+/**********************************************************/
+.header {
+  top:0;
+  position:fixed;
+    width: 100%;height: auto;background-color: grey;
+    font-family: sans-serif;
+    opacity: 0.7;
+    z-index: 100000;
+        }
+/**********************************************************/
+/**********************************************************/
+#wrapper {
+    position:absolute;
+    height:100%;
+    width:100%;
+}
+/**********************************************************/
+/**********************************************************/
+.panels {
+    position:relative;
+    height:100%;
+    min-height:100%;
+    width:100%;
+}
+/**********************************************************/
+#cornerbox {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+/**********************************************************/
+/************** laat plaatje van Aarde zien ***************/
+#a{
+    background-image: url("./plaatjes/aarde.jpg");
+    width: 100%; height : 600px;
+    background-size: cover;
+    position:fixed;
+    color:red;
+    top:0;
+}
+/************** Laat plaatje van lente zien ***************/
+#b{
+   margin-top:100%;
+   background-image: url("./plaatjes/lente.jpg");
+   width: 100%; height : 50px;
+   background-size: cover;
+}
+/************** Laat plaatje van zomer zien ***************/
+#c{
+  margin-top:100%;
+  background-image: url("./plaatjes/zomer.jpg");
+  width: 100%; height : 50px;
+  background-size: cover;
+}
+/************** Laat plaatje van herfst zien **************/
+#d{
+  margin-top:100%;
+  background-image: url("./plaatjes/herfst.jpg");
+  width: 100%; height : 50px;
+  background-size: cover;
+}
+/************** Laat plaatje van winter zien **************/
+#e{
+  margin-top:100%;
+  background-image: url("./plaatjes/winter.jpg");
+  width: 100%; height : 600px;
+  background-size: cover;
+}
+/*************** Navigatie bar configuratie ***************/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    }
+/**********************************************************/
+li {
+    float:left;
+     width:auto;
+    }
+/**********************************************************/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+/**********************************************************/
+li a:hover {
+    background-color: red;
+    width:auto; height: auto;
+           }
+/**********************************************************/
